@@ -20,11 +20,15 @@ const Flatlist = () => {
       id: 4,
       name: "sami",
     },
+    {
+      id:10,
+      name: "asmi"
+    },
   ];
   
   return (
     <View>
-      <Text> List with Flat List components</Text>
+      <Text style={{fontWeight: 'bold', fontSize: 22, textAlign: 'center', margin: 10}}> List with Flat List components</Text>
       <FlatList data={users} renderItem = {({item})=><Text style={styles.text}> {item.name}</Text>} />
     </View>
   );
