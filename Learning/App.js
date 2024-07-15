@@ -7,6 +7,10 @@ import Styling from "./components/Styling";
 import HandletextInput from "./components/HandletextInput";
 import SimpleForm from "./components/SimpleForm";
 import Flatlist from "./components/Flatlist";
+import Maplist from "./components/Maplist";
+import DynamicGrid from "./components/DynamicGrid";
+import ComponentLoopWithFlatlist from "./components/ComponentLoopWithFlatlist";
+import UseEffecth from "./components/UseEffecth";
 
 const App = () => {
   return (
@@ -19,7 +23,11 @@ const App = () => {
         {/* <Styling/>  */}
         {/* <HandletextInput/> */}
         {/* <SimpleForm/> */}
-        <Flatlist/>
+        {/* <Flatlist/> */}
+        {/* <Maplist/> */}
+        {/* <DynamicGrid/> */}
+        {/* <ComponentLoopWithFlatlist/> */}
+        <UseEffecth/>
       </View>
     </SafeAreaView>
   );
