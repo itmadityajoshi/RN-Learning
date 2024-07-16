@@ -6,8 +6,8 @@ const UseEffecth = () => {
   const [data, setData] = useState(100);
 
   useEffect(() => {
-    console.warn("Error data");
-  }, [count,data]);
+    console.warn("Error data 1");
+  }, [count]);
   return (
     <View>
       <Text> useEffect Hook life cycle</Text>
